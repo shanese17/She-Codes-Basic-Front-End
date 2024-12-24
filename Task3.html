@@ -24,7 +24,17 @@ p {
   background-color: blue;
 
 }
-
+form{
+border: solid;
+width: fit-content;
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+.formdiv{
+  display: flex;
+  justify-content: center;
+}
 </style>
 </head>
 <body>
@@ -32,6 +42,7 @@ p {
     <h1>User Registration</h1>
 <p>Fill out the form below to create an account.</p>
 <p>Personal Informantion</p>
+<div class="formdiv">
  <form action="/action_page.php">
   <label for="fname">Full Name:</label>
   <input type="text" id="fname" name="fname" value="Enter your name"><br>
@@ -54,6 +65,7 @@ p {
   
   
 </form> 
+</div>
 
 </body>
 </html>
